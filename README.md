@@ -1,5 +1,4 @@
 # Hardware-for-Handwritten-Digits-Recognition
-File: lenet5.py 
 
 Model:       Lenet-5.
 
