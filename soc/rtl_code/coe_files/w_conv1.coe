@@ -1,0 +1,11 @@
+; This .COE file specifies initialization values for a block 
+; memory of depth=16, and width=8. In this case, values are 
+; specified in hexadecimal format.
+memory_initialization_radix=16;
+memory_initialization_vector=
+3f800a4a,
+bef8d541,
+be02efd4,
+3f872967,
+bf6598f2,
+3f8df291;
