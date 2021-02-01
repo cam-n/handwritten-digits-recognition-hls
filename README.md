@@ -16,6 +16,6 @@ Then, the parameters are fed to the inference phase on hardware system.
 
 Tools:
 1. Anaconda3 (Spyder/ Python3/Pytorch platform)        : To train + Inference.
-2. Visual Studio Code (GCC compiler)  : To Build C/HLS program.
+2. Visual Studio Code (GCC compiler)  : To build C/HLS program.
 3. Vivado HLS                         : To generate C/HLS program to RTL.
 4. Vavado                             : To build hardware for inference phace.
