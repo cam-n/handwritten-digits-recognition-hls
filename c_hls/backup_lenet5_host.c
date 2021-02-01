@@ -133,7 +133,7 @@ int main(int argc, char** argv){
                 max = probs[j];
             }
        }
-       //printf("Diff: %d ~ %d\n", target[i], index);
+
        if (index == target[i]) acc++;
        printf("Predicted label: %d\n", index);
        printf("Prediction: %d/%d\n", acc, i+1);
