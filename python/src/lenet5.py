@@ -148,12 +148,10 @@ def main():
         train(args, model, device, train_loader, optimizer, epoch)
         test(model, device, test_loader)
         scheduler.step()
-    '''
 
     ### Save the model
     if args.save_model:
         torch.save(model.state_dict(), "../data/lenet5_model.pt")
-    '''
     
     ### Load the model from lenet5_model.pt file
     print(model)
