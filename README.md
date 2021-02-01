@@ -13,3 +13,9 @@ This appication is implemented on both of Software and Hardware.
 
 The training phase is implemented in Python to generate parameters.
 Then, the parameters are fed to the inference phase on hardware system.
+
+Tools:
+1. Anaconda3 (Spyder/ Python3)        : To train + Inference.
+2. Visual Studio Code (GCC compiler)  : To Build C/HLS program.
+3. Vivado HLS                         : To generate C/HLS program to RTL.
+4. Vavado                             : To build hardware for inference phace.
