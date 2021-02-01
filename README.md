@@ -5,7 +5,7 @@ Ref:         http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf
 
 Application: Handwritten Digits Recognition.
 
-Phase:       Training and Inference.
+Phase:       Train and Inference.
 
 Dataset:     MNIST (http://yann.lecun.com/exdb/mnist/)
 
