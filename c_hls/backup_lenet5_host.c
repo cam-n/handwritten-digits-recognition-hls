@@ -84,7 +84,7 @@ int main(int argc, char** argv){
    int target[10000];
 
    fp = fopen("../data/MNIST/mnist-test-target.txt", "r");
-   for(i=0;i<10000;i++)
+   for(i=0;i<LABEL_LEN;i++)
        fscanf(fp, "%d ",  &(target[i]));  fclose(fp);
 
    fp = fopen("../data/MNIST/mnist-test-image.txt", "r");
