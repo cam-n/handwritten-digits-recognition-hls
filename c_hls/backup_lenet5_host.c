@@ -80,31 +80,22 @@ int main(int argc, char** argv){
    for(i=0;i<10;i++)
        fscanf(fp, "%f ",  &(b_fc3[i]));  fclose(fp);
 
-   float *dataset = (float*)malloc(10000*28*28 *sizeof(float));
-   int target[10000];
+   float *dataset = (float*)malloc(LABEL_LEN*28*28 *sizeof(float));
+   int target[LABEL_LEN];
 
    fp = fopen("../data/MNIST/mnist-test-target.txt", "r");
    for(i=0;i<LABEL_LEN;i++)
        fscanf(fp, "%d ",  &(target[i]));  fclose(fp);
 
    fp = fopen("../data/MNIST/mnist-test-image.txt", "r");
-   for(i=0;i<10000*28*28;i++)
+   for(i=0;i<LABEL_LEN*28*28;i++)
        fscanf(fp, "%f ",  &(dataset[i]));  fclose(fp);
-   // for(i=0;i<28;i++){
-   //     for(j=0;j<28;j++)
-   //         image[i][j] = (*(float*)&dataset[28*i + j]);
-   // }
-   // for (i=0;i<100;i++)
-   //     printf("target %d: %d\n", 10000+i, target[10000+i]);
-   // for(i=0;i<B_FC3_LEN;i++)
-   //     printf("%f\n", *(float*)&(B->fc3[i]));
 
    float image[28][28];
    float *datain;
    int acc = 0;
    int mm, nn;
-   for(i=0;i<1;i++) {
-       //printf("target: %d\n", target[i]);
+   for(i=0;i<LABEL_LEN;i++) {
 
        datain = &dataset[i*28*28];
        for(mm=0;mm<28;mm++)
