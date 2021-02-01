@@ -1,2 +1,1 @@
-
-This C/HLS program implement inference phase only.
+This C/HLS program runs the inference phase only by using the generated parameters from traning phase.
