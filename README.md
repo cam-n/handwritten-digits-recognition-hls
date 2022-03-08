@@ -1,13 +1,13 @@
 # Hardware-for-Handwritten-Digits-Recognition
 
 Model:       Lenet-5.
-[Reference]         http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf
+[Reference](http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf)
 
 Application: Handwritten Digits Recognition.
 
 Phase:       Train and Inference.
 
-Dataset:     [MNIST] (http://yann.lecun.com/exdb/mnist/)
+Dataset:     [MNIST](http://yann.lecun.com/exdb/mnist/)
 
 This appication is implemented on both of Software and Hardware.
 
