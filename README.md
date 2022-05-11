@@ -21,4 +21,3 @@ Tools:
 4. Vivado                             : To build hardware for inference phase.
 5. Zedboard.
 
-[here](https://drive.google.com/drive/folders/1if2CqTp3h-DQ5aghoV0mZAnzh-Rt_iTA?usp=sharing)
