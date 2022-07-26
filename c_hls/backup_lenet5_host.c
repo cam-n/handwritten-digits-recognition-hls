@@ -129,7 +129,7 @@ int main(int argc, char** argv){
        printf("Predicted label: %d\n", index);
        printf("Prediction: %d/%d\n", acc, i+1);
    }
-   printf("Accuracy = %f\n", acc*1.0f/LABEL_LEN);
+   printf("Top-1 Accuracy = %f\n", acc*1.0f/LABEL_LEN);
 
     return 0;
 }
