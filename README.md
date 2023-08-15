@@ -1,4 +1,4 @@
-# Hardware-for-Handwritten-Digits-Recognition
+# Software and Hardware for Handwritten Digits Recognition
 
 Model:       Lenet-5.
 [Reference](http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf)
